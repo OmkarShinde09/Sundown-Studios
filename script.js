@@ -49,6 +49,14 @@ function menuAnimation() {
     })
 }
 
+function loaderAnimation() {
+    var loader = document.querySelector("#loader")
+    setTimeout(function () {//basically this is the delay
+        loader.style.top = "-100%"
+    }, 4200)
+}
+
 swiperAnimation()
 page4Animation()
 menuAnimation()
+loaderAnimation()
