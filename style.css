@@ -420,13 +420,37 @@ nav h3 {
 #footer-div {
     height: 20vh;
     width: 100%;
-    background-color: red;
 }
 
 #footer-bottom {
     border-top: 1px solid #dadada;
     height: 10vh;
     width: 100%;
+}
+
+#contact h3{
+    font-weight: 200;
+    font-size: 3vw;
+}
+
+#email{
+    font-weight: 200;
+}
+
+#footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mail{
+    color: rgba(245, 245, 245, 0.325);
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(245, 245, 245, 0.402);
+    padding: 1vw;
 }
 
 #full-scr {

@@ -51,7 +51,7 @@ function menuAnimation() {
 
 function loaderAnimation() {
     var loader = document.querySelector("#loader")
-    setTimeout(function () {//basically this is the delay
+    setTimeout(function () {
         loader.style.top = "-100%"
     }, 4200)
 }
